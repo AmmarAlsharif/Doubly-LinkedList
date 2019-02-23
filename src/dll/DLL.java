@@ -1,7 +1,5 @@
-
 package dll;
 public class DLL {
-    
     
   private DNode head;
     private int size;
@@ -23,7 +21,7 @@ public class DLL {
             size++;
         }
     }
-
+// This function to add an element e to the last of the linkedlist
     public void addLast(int e) {
         if (head == null) {
             addFirst(e);
